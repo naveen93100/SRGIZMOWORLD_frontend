@@ -32,9 +32,9 @@ const About = () => {
                     </div>
 
                     <div className='text-center lg:w-1/2  flex flex-col justify-center items-center  h-full' data-aos='fade-right'>
-                          <div className="rounded-full  overflow-hidden bg-black ">
-                                <img src="./logo.jpg" alt="" className='w-30' />
-                            </div>
+                        <div className="w-28 rounded-2xl overflow-hidden mt-5 mb-2">
+                            <img src="./logo.jpg" alt="" className=' w-full h-full ' />
+                        </div>
                     </div>
                 </div>
 
@@ -42,10 +42,10 @@ const About = () => {
                 <div className="absolute w-full bg-black/50 h-full xl:hidden py-2">
                     <div className="text-center flex flex-col justify-center items-center h-full text-white">
                         <div className=" flex flex-col justify-end items-center">
-                              <div className="rounded-full  overflow-hidden bg-black ">
-                                <img src="./logo.jpg" alt="" className='w-20' />
-                            </div>
-                           
+                            <div className="w-28 rounded-2xl overflow-hidden mt-5 mb-2">
+          <img src="./logo.jpg" alt="" className=' w-full h-full '/>
+        </div>
+
                         </div>
                         <p className="sm:text-xl text-center px-3 capitalize ">
                             <span className='font-bold bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-yellow-600 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.25)] '>SR GIZMO WORLD.</span> is a solar EPC company focused on delivering efficient, sustainable power solutions across India. As proud partners of <span className='text-red-700'>Gautam Solar</span>, we integrate industry-leading solar panels into every project, ensuring reliability and maximum performance. From rooftops to large-scale installations, we are here to light the way forward—cleanly and responsibly.

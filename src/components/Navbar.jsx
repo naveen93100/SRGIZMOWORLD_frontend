@@ -11,8 +11,8 @@ const Navbar = () => {
   return (
     <header className="w-full fixed top-0 left-0 z-50 text-black  shadow-lg bg-black">
       <div className="max-w-7xl mx-auto px-6 py-0 flex justify-between items-center">
-        <div className=" rounded-lg h-24 w-24">
-          <img src="./logo.jpg" alt="" className='object-cover mt-5 rounded-full'/>
+        <div className="w-28 rounded-2xl overflow-hidden mt-5 mb-2">
+          <img src="./logo.jpg" alt="" className=' w-full h-full '/>
         </div>
 
         <nav className="hidden md:flex space-x-8">

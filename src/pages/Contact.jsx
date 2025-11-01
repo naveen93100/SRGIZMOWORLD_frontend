@@ -51,8 +51,8 @@ const Contact = () => {
                     </div>
 
                     <div className='text-center lg:w-1/2  flex flex-col justify-center items-center  h-full'>
-                        <div className="rounded-full  overflow-hidden bg-black ">
-                            <img src="./logo.jpg" alt="" className='w-30' />
+                        <div className="w-28 rounded-2xl overflow-hidden mt-5 mb-2">
+                            <img src="./logo.jpg" alt="" className=' w-full h-full ' />
                         </div>
                     </div>
 
@@ -62,8 +62,8 @@ const Contact = () => {
                 <div className="absolute w-full bg-black/50 h-full xl:hidden">
                     <div className="text-center flex flex-col justify-center items-center h-full text-white px-4">
                         <div className="h-60 flex flex-col justify-end items-center">
-                            <div className="rounded-full  overflow-hidden bg-black my-2">
-                                <img src="./logo.jpg" alt="" className='w-20' />
+                            <div className="w-28 rounded-2xl overflow-hidden mt-5 mb-2">
+                                <img src="./logo.jpg" alt="" className=' w-full h-full ' />
                             </div>
 
                         </div>
@@ -72,14 +72,14 @@ const Contact = () => {
                             <div className="flex gap-3 items-start">
                                 <FaEnvelope className="text-orange-500 mt-1" />
                                 <p className='text-xs'>
-                                    srgizmoworld@gmail.com	
+                                    srgizmoworld@gmail.com
                                 </p>
                             </div>
                             <div className="flex gap-3 items-start">
                                 <FaPhoneAlt className="text-orange-500 mt-1" />
                                 <p className='text-xs'>7978048351</p>
                             </div>
-                           
+
                         </div>
                     </div>
                 </div>
